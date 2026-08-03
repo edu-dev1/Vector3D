@@ -27,7 +27,7 @@ int main(void){
 }
 ```
 
-## Output
+## Output:
 ```consolas
 P = (-1, 2, 5)
 Q = (4, 0, -3)
