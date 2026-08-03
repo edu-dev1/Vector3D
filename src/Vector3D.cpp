@@ -22,7 +22,7 @@ Vector3D::Vector3D(const Vector3D &vector){
 Vector3D::~Vector3D(){}
 
 Vector3D Vector3D::opposite() const{
-    return Vector3D(__x * -1, __y * -1, __z * -1);
+    return Vector3D(__x != 0 ?__x * -1 : 0, __y != 0 ? __y * -1 : 0, __z != 0 ? __z * -1 : 0);
 }
 
 float Vector3D::getMagnitude(){
