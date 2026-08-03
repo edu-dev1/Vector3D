@@ -5,7 +5,7 @@ A 3D Vector class for operations with vectors C++.
 - Easy to use.
 
 ## Example of use:
-```
+```c++
 #include "Vector3D/Vector3D.h"
 
 int main(void){
