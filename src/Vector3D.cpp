@@ -53,7 +53,7 @@ Vector3D Vector3D::operator-(const Vector3D &vector) const{
 }
 
 Vector3D Vector3D::operator^(const Vector3D &vector) const{
-    return Vector3D((__y * vector.__z) - (__z * vector.__y), -((__x * vector.__z) - (__z * vector.__x)), (__x * vector.__y) - (__y * vector.__x));
+    return Vector3D((__y * vector.__z) - (__z * vector.__y), -1 * ((__x * vector.__z) - (__z * vector.__x)), (__x * vector.__y) - (__y * vector.__x));
 }
 
 float Vector3D::operator*(const Vector3D &vector) const{
